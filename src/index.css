@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Roboto";
+}
+
+.bg-tomato {
+  background-color: #ff6257;
+}
+.text-tomato {
+  color: #ff6257;
+}
+.border-tomato {
+  border: 1px solid #ff6257;
+}
+
+.bg-dark-slate-grey {
+  background-color: hsl(234, 29%, 20%);
+}
+.text-dark-slate-grey {
+  color: hsl(234, 29%, 20%);
+}
+
+.bg-charcoal-grey {
+  background-color: hsl(235, 18%, 26%);
+}
+
+.bg-grey {
+  background-color: hsl(231, 7%, 60%);
+}
